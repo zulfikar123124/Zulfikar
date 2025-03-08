@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yasmin Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="products">
+        <h2>Produk Terbaru</h2>
+        <div class="product">
+            <img src="produk1.jpg" alt="Produk 1">
+            <h3>Nama Produk 1</h3>
+            <p>Harga: Rp100.000</p>
+            <button onclick="beliProduk('Produk 1')">Beli</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
